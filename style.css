@@ -1,0 +1,59 @@
+html {
+    height: 100%;
+}
+
+body { 
+    background-image: url("IMG_0345.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container-fluid {
+    background-color: rgba(9, 58, 33, 0.6);
+    height: 200px;
+    margin-top:300px;
+    position: absolute;
+
+
+}
+
+h1 {
+    padding-top: 20px;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    color: white;
+}
+
+hr {
+    border-top: 3px solid rgb(19, 41, 24);
+}
+
+p {
+    color: white;
+    text-align: center
+}
+
+.btn {
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+    transition: all 1s;
+    transform: rotate(360deg);
+
+}
+
+.col-12 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+
